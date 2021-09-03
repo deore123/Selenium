@@ -48,11 +48,7 @@ class MyTestCase (unittest.TestCase) :
         # cls.driver.quite()
 
 
-
-
-
-
 if __name__ == '__main__' :
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='/Users/omkarthorat/PycharmProjects/Selenium/reports'))
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='../reports'))
 
    # unittest.main ()
